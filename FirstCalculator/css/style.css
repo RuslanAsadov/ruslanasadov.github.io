@@ -1,0 +1,18 @@
+.centered{
+	text-align: center;
+}
+.s1{
+	margin: 10px;
+	padding: 50px;
+	font-size: 40px;
+} 
+#plus #minus #umnozh #delenie{
+	transition: 0.4s;
+}
+#plus #minus #umnozh #delenie:hover{
+	background-color: silver;
+	transition: 0.4s;
+}
+#result{
+	font-size: 30px;
+}

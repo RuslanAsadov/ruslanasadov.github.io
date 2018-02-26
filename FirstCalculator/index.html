@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="img/favicon.png" rel="shortcut icon" type="image/x-icon" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Калькулятор</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    
+  </head>
+  <body>
+  <div class="container-fluid">
+	  <div class="centered">
+	  	<h1><i class="fa fa-calculator" aria-hidden="true"></i> Мой калькулятор</h1>
+	  	<form class="form-inline">
+				<div class="form-group">
+					<input class="form-control input-md-6" name="uu" type="number" id="v1" placeholder="Введите первое число">
+				</div>
+				<div class="form-group">
+					<input class="form-control input-md-6" name="uu" type="number" id="v2" placeholder="Введите второе число">
+		   	</div>
+		  </form>
+			<div class="symbol">
+				<button class="btn s1" id="plus">+</button>
+				<button class="btn s1" id="minus">-</button><br>
+				<button class="btn s1" id="umnozh">*</button>
+				<button class="btn s1" id="delenie">/</button>
+			</div>
+			<br>
+			<div id="result">Тут будет ответ...</div>
+		</div>
+	</div>
+	</body>
+
+<!-- ____________________________________________________ -->
+
+   
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script>
+      $(document).ready(
+          function() {
+              $("html").niceScroll({cursorcolor:"#000"});
+          }
+      );
+    </script>
+  </body>
+</html>
